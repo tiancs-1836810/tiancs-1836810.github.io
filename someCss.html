@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .container {
+              position: relative;
+           }
+           .topleft {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 18px;
+           }
+           img {
+              width: 100%;
+              height: auto;
+              opacity: 1;
+              margin: 20px;
+           }
+           p.dotted {
+              border-style: dotted;
+           }
+        </style>
+     </head>
+     <body>
+        <h2>The Photo with margins</h2>
+        <div class = "container">
+        <img src="https://s7g10.scene7.com/is/image/tetrapak/assorted-ice-cream-cone-stick-bar-sandwich-popsicle-swirl?wid=384&hei=216&fmt=jpg&resMode=sharp2&qlt=85,0&op_usm=1.75,0.3,2,0"
+             alt = "icecream">
+        <div class = "topleft">Center</div>
+        </div>
+        <p class="dotted">A text with dotted border.</p>
+     </body>
+</html>
